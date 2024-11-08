@@ -9,7 +9,7 @@
 .grid-item {
     background-color: rgba(var(--grid-color), 0.25);
     border: 1px solid rgba(var(--grid-color), 1);
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 2em;
 }
   
