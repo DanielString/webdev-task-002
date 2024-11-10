@@ -1,1 +1,57 @@
 @import url("reset.css");
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-rows: 100% 100% auto;
+  grid-template-columns: 50% 50%;
+  gap: 2em;
+  padding: 10px;
+}
+
+.gitem {
+  display: grid;
+  background-color: beige;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.gitem:nth-child(even) {
+  text-align: center;
+}
+
+.one {
+  background-color: rgba(249, 170, 170, 0.5);
+  width: 16%;
+}
+
+.two {
+  background-color: rgba(186, 251, 186, 0.5);
+  width: 32%;
+}
+
+.three {
+  background-color: rgba(124, 124, 254, 0.5);
+  color: ivory;
+  width: 48%;
+}
+
+.four {
+  background-color: rgba(255, 91, 91, 0.5);
+  width: 64%;
+}
+
+.five {
+  background-color: rgba(148, 34, 255, 0.5);
+  width: 80%;
+}
+
+.six {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: ivory;
+}
