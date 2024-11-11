@@ -7,11 +7,11 @@ body {
 
 .gridcontainer {
   display: grid;
-  grid-template-rows: 100% auto 100%;
-  grid-template-columns: 33% 33%;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 2em;
-  padding: 100px;
-  justify-content: center;
+  padding: 10px;
+  justify-content: start;
 }
 
 .gitem {
@@ -50,4 +50,31 @@ body {
 .six {
   background-color: rgba(0, 0, 0, 0.5);
   color: ivory;
+}
+
+.seven {
+  background-color: rgba(255, 34, 237, 0.5);
+}
+
+.eight {
+  background-color: rgba(29, 0, 123, 0.5);
+  color: ivory;
+}
+
+.nine {
+  background-color: rgba(10, 61, 0, 0.5);
+  color: ivory;
+}
+
+.ten {
+  font-weight: bold;
+}
+
+.eleven {
+  text-transform: uppercase;
+}
+
+.twelve {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 }
