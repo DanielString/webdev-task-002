@@ -23,13 +23,11 @@ body {
   gap: 15px;
 }
 
-.flexitem {
-  width: auto;
-  height: 100px;
+.flexitem img {
+  width: 150px;
+  height: 200px;
   border: 3px solid blue;
-  padding: 20px;
 }
-
-.flexitem:nth-child(even) {
-  border: 3px dashed red;
+.flexitem p {
+  text-align: center;
 }
