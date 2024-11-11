@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 html {
-  background-color: aqua;
+  background-color: rgb(6, 45, 6);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
@@ -12,6 +12,7 @@ body {
 }
  h1 {
   text-align: center;
+  color: ivory;
  }
 
 .flexcontainer {
@@ -26,8 +27,9 @@ body {
 .flexitem img {
   width: 150px;
   height: 200px;
-  border: 3px solid blue;
+  border: 3px solid gold;
 }
 .flexitem p {
   text-align: center;
+  color: ivory;
 }
